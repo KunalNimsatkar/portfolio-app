@@ -1,0 +1,32 @@
+.footer{
+    background-color: #111111;
+    height: 25vh;
+    margin-top: 2rem;
+}
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.footer h2{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.links{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+.links a{
+    padding: 2rem 1rem;
+    color: #ffffff;
+}
+.footer_content p{
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+.footer_content > p > a{
+    color: #ffffff;
+}

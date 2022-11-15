@@ -1,0 +1,99 @@
+/* Navbar Styling  */
+
+.Navbar_container{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 1rem 2rem;
+  z-index: 100;
+  width: 100%;
+  background-color: var(--bg-secondary);
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+/* Toggle Button CSS */
+
+.menu {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.menu div {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  position: relative;
+}
+.menu span {
+  background-color: var(--bg-primary);
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s, width 0.5s;
+}
+.menu .line-1 {
+  transform: translate(-50%, -9px);
+}
+.menu .line-3 {
+  transform: translate(-50%, 6px);
+}
+.openMenu {
+  border: 1px dotted var(--text-primary);
+}
+.openMenu .line-1 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.openMenu .line-3 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.openMenu .line-2 {
+  width: 0%;
+}
+
+/* Navlinks Links In Mobile */
+.navlinks_container {
+  position: absolute;
+  top: 120%;
+  right: 4%;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 767px) {
+  .Navbar_container{
+    padding: 1rem 4rem;
+  }
+  .navlinks_container {
+    position: inherit;
+  }
+  .menu{
+    display: none;
+  }
+  .logo{
+    width: 2.8rem;
+    margin-left: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Navbar_container{
+    padding: 1rem 8rem;
+  }
+}

@@ -1,0 +1,68 @@
+.projects {
+  width: 100%;
+  padding-top: 4rem;
+}
+.projects_wrapper {
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.projects_container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  transition: 0.3s;
+}
+.projects_container:hover {
+  transform: translateY(-10px);
+}
+.projects_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github_icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.live_icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.projects_context {
+  padding-top: 2rem;
+  text-transform: capitalize;
+}
+.projects_context p {
+  font-size: 0.8rem;
+}
+.projects_context h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.projects_language {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.language {
+  margin-right: 1.5rem;
+}
+@media screen and (min-width: 767px) {
+  .projects {
+    padding-top: 6rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projects_wrapper {
+    gap: 2rem;
+  }
+}
