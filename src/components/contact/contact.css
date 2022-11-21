@@ -35,13 +35,13 @@ textarea {
   width: 48%;
 }
 .contact__btn {
-  background-color: #06615a;
+  background-color: var(--bg-primary);
   color: #fff;
   outline: 0;
   text-decoration: none;
   height: 3rem;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 @media screen and (min-width: 767px) {
