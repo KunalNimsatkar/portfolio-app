@@ -12,12 +12,13 @@ const About = () => {
     "git",
     "github",
     "react",
+    "redux",
   ];
   return (
     <>
       <div className="about_wrapper" id="about">
         <Title subtitle="get to know more" />
-        <Title title="about me"/>
+        <Title title="about me" />
         <div className="about_container">
           <div className="about">
             <h2>hello !</h2>

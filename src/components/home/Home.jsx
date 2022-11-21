@@ -12,8 +12,8 @@ const Home = () => {
           </a>
           <h1>Hi I'm Kunal</h1>
           <div className="content_text">
-            <h2>Building User </h2>
-            <h2> Friendly Website and Experience</h2>
+            <h2>Front End Developer</h2>
+            <h2>with relavant Skills in Building User Friendly Website and Experience</h2>
             <p>I code beautifully simple things, and I love what I do.</p>
           </div>
           <a href="#contact" className="btn_secondary">

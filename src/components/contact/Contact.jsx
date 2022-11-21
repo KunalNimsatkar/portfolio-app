@@ -1,32 +1,36 @@
 import React from "react";
 import Title from "../ReuseComponent/Title";
-import { BsPhone } from "react-icons/bs";
-import { FiMail } from "react-icons/fi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
 import "./contact.css";
-import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div className="contact_wrapper" id="contact">
-      <Title subtitle="get in touch" />
-      <Title title="contact" />
-      <div className="contact_container">
-        <div className="contact_info">
-          <div className="contact">
-            {<BsPhone className="icons" />}
-            <h3 className="contact_no">9699998921</h3>
+    <div className="contact" id="contact">
+      <div className="contact__title">
+        <Title
+          title="Contact"
+          subtitle="Let’s get this conversation started. Tell us a bit about yourself, and I'll get in touch as soon as Possible."
+        />
+      </div>
+      <div className="contact__wrapper">
+        <div className="contact__content">
+          <div className="content__first">
+            <label htmlFor="#">First name</label>
+            <input type="text" />
           </div>
-          <div className="contact">
-            {<FiMail className="icons" />}
-            <h3>kunal.nimsatkar@gmail.com</h3>
-          </div>
-          <div className="contact">
-            {<HiOutlineLocationMarker className="icons" />}
-            <h3>Maharashtra,India</h3>
+          <div className="content__last">
+            <label htmlFor="#">Last name</label>
+            <input type="text" />
           </div>
         </div>
-        <ContactForm />
+        <div className="contact__email">
+          <label htmlFor="#">Work Email</label>
+          <input type="text" />
+        </div>
+        <div className="contact__message">
+          <label htmlFor="#">Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button className="contact__btn">Contact</button>
       </div>
     </div>
   );

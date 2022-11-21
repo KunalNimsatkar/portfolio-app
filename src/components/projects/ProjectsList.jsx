@@ -2,6 +2,9 @@ import { AiFillGithub } from "react-icons/ai";
 import { CgArrowTopRightR } from "react-icons/cg";
 
 const ProjectsList = (props) => {
+  const truncate = (str, n) => {
+    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+  };
   const List = props.List;
   return (
     <div className="projects_wrapper">
@@ -18,14 +21,14 @@ const ProjectsList = (props) => {
             </div>
             <div className="projects_context">
               <h3>{title}</h3>
-              <p>{desc}</p>
+              <p>{truncate(desc, 70)}</p>
             </div>
             <div className="projects_language">
-              {/* <ul>
-                {lang.map((lang) => {
-                  return <li>{lang}</li>;
-                })}
-              </ul> */}
+              <ul className="projects__list">
+                {lang.map((lang, index) => (
+                  <li key={index}>{lang}</li>
+                ))}
+              </ul>
             </div>
           </div>
         );

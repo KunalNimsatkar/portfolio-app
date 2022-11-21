@@ -16,7 +16,7 @@ const LinksItem = () => {
           <a href="#contact">Contact</a>
         </li>
         <li className='btn'>
-          <a href="#about">Resume
+          <a href="#home">Resume
             <BsArrowRightShort className='arrow' />
           </a>
         </li>
