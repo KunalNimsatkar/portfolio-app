@@ -2,8 +2,8 @@ export const List = [
   {
     title: "Netflix-Clone",
     desc: "Netflix-Clone using React-Js with IMDB Web API with Packages of Axios and Optimize Loading by React-lazy-load-image-component. A fully Responsive and Great User Experiance.",
-    repo: "https://github.com/KunalNimsatkar/Netflix-App",
-    link: "https://kunalnimsatkar.github.io/Netflix-App/",
+    repo: "https://github.com/KunalNimsatkar/netflix-clone",
+    link: "https://stately-fairy-d5d8d7.netlify.app",
     lang: [
       "ReactJs",
       "axios",
@@ -21,9 +21,9 @@ export const List = [
   {
     title: "Todo-App using Redux",
     desc: "Simple Todo App using Redux state Management",
-    repo: "https://github.com/KunalNimsatkar/Todo-App",
-    link: "https://animated-chimera-b8cd1e.netlify.app",
-    lang: ["ReactJs", "Redux"],
+    repo: "https://github.com/KunalNimsatkar/Todo-App-using-Redux-",
+    link: "https://friendly-bubblegum-61508f.netlify.app",
+    lang: ["ReactJs", "Redux","Redux-Toolkit"],
   },
   {
     title: "github user finder",

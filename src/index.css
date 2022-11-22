@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
-a{
+a {
   color: var(--text-primary);
 }
 :root {
@@ -37,7 +37,7 @@ a{
   background-color: var(--bg-primary);
   color: var(--bg-secondary);
 }
-.footer_btn{
+.footer_btn {
   background-color: var(--bg-primary);
   color: var(--text-secondary);
   border-radius: 5px;
@@ -47,6 +47,32 @@ a{
   height: 2px;
   background-color: var(--divider);
   margin: 5.5rem 0;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup_inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: #fff;
+}
+.popup_inner .close_btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: navajowhite;
+  background: var(--bg-secondary);
+  font-size: 1.2rem;
 }
 @media screen and (min-width: 767px) {
   .hidden {

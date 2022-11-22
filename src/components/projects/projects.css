@@ -13,7 +13,6 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  height: 280px;
   transition: 0.3s;
 }
 .projects_container:hover {

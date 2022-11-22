@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </div>
         <p>
-          CodeBy<a href=""> Kunal Nimsatkar .</a> All rights reserved
+          CodeBy<a href="https://github.com/KunalNimsatkar/portfolio"> Kunal Nimsatkar .</a> All rights reserved
         </p>
       </div>
     </div>

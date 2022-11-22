@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Navbar/navbar.css";
-import logo from "../../Assests/images/favicon-ico.png"
+import logo from "../../Assests/images/favicon-ico.png";
 import LinksItem from "./Linksitems/LinksItem";
 
 const Navbar = () => {
@@ -15,10 +15,12 @@ const Navbar = () => {
     <div className="Navbar_container">
       <div className="Navbar">
         <div className="logo_container">
-          <img src={logo} alt="logo" className="logo" />
+          <a href="#home">
+            <img src={logo} alt="logo" className="logo" />
+          </a>
         </div>
         <div className={Navtoggle}>
-          <LinksItem/>
+          <LinksItem />
         </div>
         <div className={toggleCheck} onClick={() => setOpen((open) => !open)}>
           <div>

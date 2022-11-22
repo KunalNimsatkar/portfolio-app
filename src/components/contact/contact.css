@@ -1,5 +1,5 @@
-.contact{
-    padding-top: 5.5rem;
+.contact {
+  padding-top: 5.5rem;
 }
 .contact__title h1 {
   margin-bottom: 1rem;
@@ -17,11 +17,15 @@
 .contact__wrapper input {
   width: 100%;
   height: 3rem;
-  margin-top: 0.5rem;
+  padding-left: 0.5rem;
 }
 .contact__wrapper input,
 textarea {
   width: 100%;
+  margin-top: 0.5rem;
+}
+textarea {
+  padding: 0.5rem;
 }
 .contact__content {
   display: flex;
@@ -45,7 +49,7 @@ textarea {
   font-weight: 600;
 }
 @media screen and (min-width: 767px) {
-    .contact__wrapper {
-      width: 60%;
-    }
+  .contact__wrapper {
+    width: 60%;
   }
+}
