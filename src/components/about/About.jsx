@@ -1,45 +1,39 @@
 import React from "react";
 import "../about/about.css";
 import Title from "../ReuseComponent/Title";
+import { arr, aboutContent } from "../ReuseComponent/Data";
 
 const About = () => {
-  const arr = [
-    "html",
-    "css",
-    "javascript",
-    "bootstrap",
-    "tailwindcss",
-    "git",
-    "github",
-    "react",
-    "redux",
-  ];
+  const { title, para, contact } = aboutContent;
   return (
     <>
       <div className="about_wrapper" id="about">
         <Title subtitle="get to know more" />
         <Title title="about me" />
         <div className="about_container">
-          <div className="about">
-            <h2>hello !</h2>
-            <p>
-              my name is <span>kunal nimsatkar</span> and i'm a passionate
-              frontend web developer using web technologies to build amazing
-              products and focusing on solving problems for different niches
-              using the power of technology.
-            </p>
-            <p className="about_contact">
-              i will love to hear from you. whether it's a projects,job
-              opportunity,or just a chat. feel free to contact me.
-            </p>
+          <div className="about" data-aos="zoom-out" data-aos-duration="1000">
+            <h2>{title}</h2>
+            <p>{para}</p>
+            <p className="about_contact">{contact}</p>
           </div>
           <div className="skills_container">
-            <h2 className="skills_title">my skills</h2>
+            <h2
+              className="skills_title"
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+            >
+              my skills
+            </h2>
             <div className="skills">
-              {arr.map((arr, index) => {
+              {arr.map(({ title, aos, delay }, index) => {
                 return (
-                  <div className="skills_list" key={index}>
-                    {arr}
+                  <div
+                    className="skills_list"
+                    key={index}
+                    data-aos={aos}
+                    data-aos-delay={delay}
+                  >
+                    {title}
                   </div>
                 );
               })}

@@ -15,14 +15,14 @@ const Navbar = () => {
     <div className="Navbar_container">
       <div className="Navbar">
         <div className="logo_container">
-          <a href="#home">
+          <a href="#home" data-aos="zoom-in" data-aos-duration="1000">
             <img src={logo} alt="logo" className="logo" />
           </a>
         </div>
         <div className={Navtoggle}>
           <LinksItem />
         </div>
-        <div className={toggleCheck} onClick={() => setOpen((open) => !open)}>
+        <div className={toggleCheck} onClick={() => setOpen((open) => !open)} data-aos="zoom-in" data-aos-duration="1000">
           <div>
             <span className="line-1"></span>
             <span className="line-2"></span>
