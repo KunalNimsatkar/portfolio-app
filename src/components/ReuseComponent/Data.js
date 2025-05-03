@@ -6,11 +6,11 @@ import { FaGithub } from "react-icons/fa";
 //Home Content Data
 
 export const homeContent = {
-  title: "Hi I'm Kunal",
-  subtitle: "Front End Developer",
-  desc: "with relavant Skills in Building User Friendly Website and Experience",
-  para: "I code beautifully simple things, and I love what I do.",
-  buttonContent: "connect with me",
+  title: "Hi, I’m Kunal",
+  subtitle: "Bubble Developer | Full-Stack No-Code Solutions",
+  desc: "Building scalable, no-code apps with clean UI/UX and seamless API integrations.",
+  para: "I specialize in creating powerful web applications without writing code. Below are some of my recent projects.",
+  buttonContent: "Connect with me",
 };
 
 // About Content Data
@@ -56,58 +56,73 @@ export const arr = [
     delay: "1900",
   },
   {
-    title: "redux",
+    title: "Bubble.io",
     aos: "zoom-in",
     delay: "2100",
+  },
+  {
+    title: "API",
+    aos: "zoom-in",
+    delay: "2300",
+  },
+  {
+    title: "No-Code",
+    aos: "zoom-in",
+    delay: "2500",
   },
 ];
 const span = "kunal nimsatkar";
 
 export const aboutContent = {
   title: "hello !",
-  para: `my name is ${span} and i'm a passionate frontend web developer using web technologies to build amazing products and focusing on solving problems for different niches using the power of technology.`,
+  para: `I’m ${span}, a no-code Bubble Developer with 2.5+ years of experience building full-stack web apps. I specialize in creating scalable solutions with clean UI/UX and seamless third-party API integrations. My focus is on performance, reusability, and crafting products that are intuitive and user-friendly.`,
   contact:
-    " i will love to hear from you. whether it's a projects,job opportunity,or just a chat. feel free to contact me.",
+    " I’d love to hear from you, whether it's about a project, job opportunity, or just a chat. Feel free to reach out!",
 };
 
 // Project Content Data
 
 export const List = [
   {
-    title: "Netflix-Clone",
-    desc: "Netflix-Clone using React-Js with IMDB Web API with Packages of Axios and Optimize Loading by React-lazy-load-image-component. A fully Responsive and Great User Experiance.",
-    repo: "https://github.com/KunalNimsatkar/netflix-clone",
-    link: "https://stately-fairy-d5d8d7.netlify.app",
+    title: "MT AutoQuote – BMW",
+    desc: "The MT AutoQuote application streamlines the quotation process for BMW vehicles by automatically calculating ex-showroom price, registration charges, insurance, and other costs. It enables quick, accurate, and professional quote generation for potential buyers.",
+    repo: "",
+    link: "https://autoquote.marshteknica.in/version-test",
     lang: [
-      "ReactJs",
-      "axios",
-      "IMBD Web API",
-      "react-lazy-load-image-component",
+      "Bubble.io",
+      "Google Sheet API Integration",
+      "Interakt API Integration",
+      "SendGrid API Integration",
     ],
     aos: "zoom-out",
     delay: "500",
   },
   {
-    title: "Fylo Landing Page",
-    desc: "Responsive Fylo Landing Page using Reactjs and Aos animation.",
-    repo: "https://github.com/KunalNimsatkar/Fylo_landing_page",
-    link: "https://kunalnimsatkar.github.io/Fylo_landing_page/",
-    lang: ["ReactJs"],
+    title: "MT AutoQuote – KIA",
+    desc: "The MT AutoQuote application simplifies the creation of KIA vehicle quotations by calculating ex-showroom price, registration charges, insurance, and additional fees. It ensures fast and reliable quote generation tailored to customer needs.",
+    repo: "",
+    link: "https://kia-autoquote.marshteknica.in/version-test",
+    lang: [
+      "Bubble.io",
+      "Google Sheet API Integration",
+      "Interakt API Integration",
+      "SendGrid API Integration",
+    ],
     aos: "zoom-out",
     delay: "500",
   },
   {
-    title: "Notes",
-    desc: "Notes using ReactJs and using Local Storage to store Data",
-    repo: "https://github.com/KunalNimsatkar/React_Notes",
-    link: "https://kunalnimsatkar.github.io/React_Notes/",
-    lang: ["ReactJs"],
+    title: "KSBA – Karnataka State Bridge Association",
+    desc: "An official platform for promoting Contract Bridge in Karnataka. It supports teaching sessions, weekly club games, and tournaments—both online and offline—welcoming players of all skill levels.",
+    repo: "",
+    link: "https://ksbabridge.com/",
+    lang: ["Bubble.io", "Razorpay API Integration", "SendGrid API Integration"],
     aos: "zoom-out",
     delay: "700",
   },
   {
-    title: "Todo-App using Redux",
-    desc: "Simple Todo App using Redux state Management",
+    title: "Todo App – Redux",
+    desc: "A simple and efficient task management app built with Redux for state management. It allows users to add, edit, delete, and filter tasks with real-time UI updates and structured state handling.",
     repo: "https://github.com/KunalNimsatkar/Todo-App-using-Redux-",
     link: "https://friendly-bubblegum-61508f.netlify.app",
     lang: ["ReactJs", "Redux", "Redux-Toolkit"],
@@ -115,29 +130,20 @@ export const List = [
     delay: "900",
   },
   {
-    title: "github user finder",
-    desc: "a user freindly responsive github user finder webpage, a nicer look at your github profile and repo stats.",
+    title: "GitHub User Finder",
+    desc: "A lightweight web app built with HTML, CSS, and JavaScript that lets users search for GitHub profiles by username. It fetches and displays user details like avatar, bio, repositories, and followers using the GitHub API.",
     repo: "https://github.com/KunalNimsatkar/Responsive-Github-User-Finder",
     link: "https://kunalnimsatkar.github.io/Responsive-Github-User-Finder/",
-    lang: ["html", "css", "javascript", "github api"],
+    lang: ["HTML", "CSS", "JavaScript", "Github API"],
     aos: "zoom-out",
     delay: "1100",
   },
   {
-    title: "traveling website",
-    desc: "Responsive Travelling Website with Good UI interface By using AOS Animation",
-    repo: "https://github.com/KunalNimsatkar/Travelling_Responsive_website",
-    link: "https://kunalnimsatkar.github.io/Travelling_Responsive_website/",
-    lang: ["html", "css", "javascript"],
-    aos: "zoom-out",
-    delay: "1300",
-  },
-  {
     title: "Advice Generator",
-    desc: "Created a Interactive Advice Generator Using HTML ,CSS and JavaScript (using Web API), A Frontend Mentor Challenge.",
+    desc: "A simple app that fetches random advice from an external API and displays it with each click. Built with HTML, CSS, and JavaScript for a clean, interactive user experience.",
     repo: "https://github.com/KunalNimsatkar/Advice_Generator_by_Vanilla_Javascript",
     link: "https://guileless-mooncake-2d03f7.netlify.app/",
-    lang: ["html", "css", "javascript"],
+    lang: ["HTML", "CSS", "JavaScript"],
     aos: "zoom-out",
     delay: "1500",
   },

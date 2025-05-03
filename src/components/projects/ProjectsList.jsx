@@ -26,7 +26,7 @@ const ProjectsList = (props) => {
             </div>
             <div className="projects_context">
               <h3>{title}</h3>
-              <p>{truncate(desc, 70)}</p>
+              <p>{truncate(desc)}</p>
             </div>
             <div className="projects_language">
               <ul className="projects__list">

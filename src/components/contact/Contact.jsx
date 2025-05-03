@@ -78,7 +78,13 @@ const Contact = () => {
             required
           ></textarea>
         </div>
-        <button className="contact__btn" data-aos="zoom-out" data-aos-delay="1000">Contact</button>
+        <button
+          className="contact__btn"
+          data-aos="zoom-out"
+          data-aos-delay="1000"
+        >
+          Contact
+        </button>
       </form>
       <Result trigger={popup} setTrigger={SetPopup} />
     </div>
